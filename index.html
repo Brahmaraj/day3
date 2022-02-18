@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #css-internal {
+        color: chartreuse;
+        font-size: 30px;
+      }
+      .css-color {
+        color: darkgreen;
+      }
+      .three-style-class {
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Inline>Internal>External CSS priorities</h1>
+    <div style="color: crimson; font-size: 30px">This is inline</div>
+    <br />
+    <div id="css-internal">This is Internal</div>
+    <br />
+    <div id="css-external" class="css-color">This is External</div>
+
+    <div id="box-model-css">
+      Box Model (Inspect Element and check all the margin padding)
+    </div>
+
+    <div id="three-style-id" class="three-style-class" style="color: crimson">
+      All three Different Styles
+    </div>
+
+    <div id="css-border">Border</div>
+
+    <div id="circle"></div>
+
+    <div id="one-id">Id</div>
+    <div id="one-id two-id">Id</div>
+    <div class="one-class two-class">Class</div>
+  </body>
+</html>

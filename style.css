@@ -1,0 +1,40 @@
+#css-external{
+    color: darkolivegreen;
+    font-size: 30px;
+}
+#box-model-css{
+    width: 500px;
+    height: 500px;
+    padding: 40px;
+    margin: 40px;
+    border: 20px groove blue;
+    background-color: wheat;
+}
+#three-style-id{
+    font-weight: 900;
+}
+#css-border{
+    width: 200px;
+    height: 200px;
+    border: 10px double hotpink;
+    font-size: 50px;
+}
+#circle{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+#one-id{
+    font-size: 50px;
+}
+#two-id{
+    color: darkgoldenrod;
+}
+.one-class{
+    font-size: 50px;
+}
+.two-class{
+    color: aqua;
+}
